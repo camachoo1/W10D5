@@ -1,3 +1,29 @@
 .active {
   font-weight: bold;
 }
+
+/* .gallery-link {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+} */
+
+.nav-galleries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* list-style: none; */
+  border: 1px solid black;
+}
+
+.nav-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gallery-link {
+  padding: 2px;
+  margin: 2px;
+}
