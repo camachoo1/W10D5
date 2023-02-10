@@ -8,9 +8,9 @@ function App() {
   // return <h1>Hello from App</h1>;
   return (
     <div>
-      <GalleryNavigation galleries={harvardArt.records} />
+      <GalleryNavigation galleries={ harvardArt.records } />
       <Switch>
-        <Route path="/galleries/:galleryId" component={GalleryView} />
+        <Route path="/galleries/:galleryId" component={ GalleryView } />
       </Switch>
     </div>
   )

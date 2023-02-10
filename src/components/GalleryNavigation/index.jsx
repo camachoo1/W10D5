@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import harvardArt from '../../data/harvardArt';
-import './GalleryNavigation.css'
+import './GalleryNavigation.css';
 
 const GalleryNavigation = () => {
   const galleries = harvardArt.records;
