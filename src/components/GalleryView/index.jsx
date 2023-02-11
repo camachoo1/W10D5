@@ -1,6 +1,7 @@
 import { useParams, Route, Link } from 'react-router-dom';
 import harvardArt from '../../data/harvardArt';
 import ArtImageTile from '../ArtImageTile';
+import ArtDescription from '../ArtDescription';
 import './GalleryView.css';
 
 const GalleryView = () => {
@@ -27,6 +28,9 @@ const GalleryView = () => {
             );
           })}
         </div>
+      </Route>
+      <Route exact path={'/galleries/:galleryId/art/:artId'}>
+        <ArtDescription gallery={currentGallery} />
       </Route>
     </>
   );
